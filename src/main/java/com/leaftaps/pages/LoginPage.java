@@ -24,7 +24,7 @@ public class LoginPage extends ProjectHooks{
 	@And("Click Login button")
 	public HomePage clickLogin() {
 		click(locateElement(Locators.CLASS_NAME, "decorativeSubmit"));
-		reportStep("Login button clicked successfully", "pass");
+		reportStep("Leaftaps Login button clicked successfully", "pass");
 		return new HomePage();
 	}
 
